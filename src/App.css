@@ -1,0 +1,93 @@
+/* .App {
+  text-align: center;
+} */
+
+.selectdiv{
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-bottom: 10%;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap; 
+   background: linear-gradient(
+    190deg,
+    rgb(225, 113, 126) 0%,
+    rgb(183, 181, 192) 100%
+  );
+}
+
+
+
+.flex-container > div {
+  background-color: #ced1c7;
+  /* width: 100px;
+  margin: 10px; */
+  width: 25% !important;
+    padding: 1%;
+    margin: 1%;
+    margin-left: 5%;
+  text-align: center;
+  font-size: 13px;
+  border-radius: 10px;
+  
+}
+.btn {
+  font-family: 'Ubuntu', sans-serif;
+  position: relative;
+  font-weight: 400;
+  font-size: 1.3rem;
+  line-height: 2;
+  height: 50px;
+  transition: all 200ms linear;
+  border-radius: 4px;
+  width: 240px;
+  letter-spacing: 1px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  align-self: center;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 12px 35px 0 rgba(24, 24, 24, 0.25);
+  outline: 0;
+  text-transform: capitalize;
+  background-color: chocolate;
+}
+
